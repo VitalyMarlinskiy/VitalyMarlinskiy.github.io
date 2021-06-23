@@ -1,0 +1,185 @@
+body{
+    font-family: arial, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background: #526481;
+}
+
+.logo{
+    color: #fff;
+    font-size: 25px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+
+}
+
+.menu{
+    float: left;
+    padding-left: 430px;
+}
+
+.menu li{
+    float: left;
+    color: #fff;
+    line-height: 60px;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.main{
+    width: 100%;
+    background:url(../img/boy.png) no-repeat 90% 100%/auto 85% ,url(../img/BG.jpg)center/cover no-repeat;
+    height: calc(100% - 60px);
+    box-shadow: 0px 24px;(должна быть полупрозрачная тень)
+}
+
+.title_container{
+    float: left;
+    margin: 432px 0px 0px 404px;
+    color: #445674;
+    text-align: center;
+    
+}
+
+.title_container h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title_container h4{
+    margin-top: 35px;
+    font-size: 22px;
+    color: #79818d;
+}
+
+.title_container input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 14px;
+    margin: 55px 14px 0px 14px
+}
+
+.description{
+    background:url(../img/trait.jpg) no-repeat 50% 53px, url(../img/boy-2.jpg) 50% 117px no-repeat;
+    width: 100%;
+    height: 656px;
+}
+
+
+.description h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #263244;
+    margin: 85px 0px 344px 0px;
+    
+}
+
+
+.description p{
+    color: #3f495a;
+    margin: 23px 596px;
+}
+
+.description input{
+    background: none;
+    color: #6f707e;
+    margin: 0 auto;
+    border: solid 2px #6f707e;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    background: url(../img/downloud.jpg) no-repeat 10px 50%;
+    padding: 0px 11px 0px 32px;
+    
+}
+
+.skills{
+    background:url(../img/gramophone.png) no-repeat 1376px 275px ,url(../img/rocket.png) no-repeat 1085px 275px ,url(../img/sign.png) no-repeat 789px 275px ,url(../img/laptop.png) no-repeat 500px 275px ,url(../img/trait.jpg) no-repeat 50% 160px ,url(../img/BG-3.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 521px;
+    
+}
+
+.skills h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #263244;
+    padding-top: 107px;
+}
+
+.skills p{
+    color: #cf7600;
+    font-size: 22px;
+    display: inline;
+    line-height: 400px;
+    
+}
+
+.cases {
+    background:url(../img/trait.jpg) no-repeat 50% 52px , url(../img/BG-4.jpg) no-repeat center;
+    width: 100%;
+    height: 100%;
+}
+
+.cases h2{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #384354;
+    margin: 105px 0px 0px 0px;
+}
+
+.one{
+    color: #3f495a;
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.two {
+    color: #384354;
+    margin: 660px 0px 0px 308px;
+}
+.two h3{
+    font-size: 25px;
+    font-weight:inherit;
+    margin: 7px 0px;
+}
+
+.skills-one{
+    margin-left: 468px;
+}
+
+.skills-two{
+    margin-left: 168px;
+}
+
+.skills-three{
+    margin-left: 135px;
+}
+
+.skills-four{
+    margin-left: 147px;
+}
+
+.skills span{
+    color: #3f495a;
+}
+
