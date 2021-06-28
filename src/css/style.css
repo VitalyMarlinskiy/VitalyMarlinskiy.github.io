@@ -69,7 +69,7 @@ nav{
 }
 
 .description{
-    background:url(../img/trait.jpg) no-repeat 50% 53px, url(../img/boy-2.jpg) 50% 117px no-repeat;
+    background:url(../img/trait.png) no-repeat 50% 53px, url(../img/boy-2.jpg) 50% 117px no-repeat;
     width: 100%;
     height: 656px;
 }
@@ -101,14 +101,13 @@ nav{
     font-size: 14px;
     display: block;
     text-align: center;
-    margin: 0 auto;
     background: url(../img/downloud.jpg) no-repeat 10px 50%;
     padding: 0px 11px 0px 32px;
     
 }
 
 .skills{
-    background:url(../img/gramophone.png) no-repeat 1376px 275px ,url(../img/rocket.png) no-repeat 1085px 275px ,url(../img/sign.png) no-repeat 789px 275px ,url(../img/laptop.png) no-repeat 500px 275px ,url(../img/trait.jpg) no-repeat 50% 160px ,url(../img/BG-3.jpg) no-repeat center/cover;
+    background:url(../img/gramophone.png) no-repeat 1376px 275px ,url(../img/rocket.png) no-repeat 1085px 275px ,url(../img/sign.png) no-repeat 789px 275px ,url(../img/laptop.png) no-repeat 500px 275px ,url(../img/trait.png) no-repeat 50% 160px ,url(../img/BG-3.jpg) no-repeat center/cover;
     width: 100%;
     height: 521px;
     
@@ -122,19 +121,11 @@ nav{
     color: #263244;
     padding-top: 107px;
 }
-
-.skills p{
-    color: #cf7600;
-    font-size: 22px;
-    display: inline;
-    line-height: 400px;
     
-}
-
 .cases {
-    background:url(../img/trait.jpg) no-repeat 50% 52px , url(../img/BG-4.jpg) no-repeat center;
+    background:url(../img/trait.png) no-repeat 50% 52px , url(../img/BG-4.jpg) no-repeat 50% 130px;
     width: 100%;
-    height: 100%;
+    height: 750px;
 }
 
 .cases h2{
@@ -159,27 +150,350 @@ nav{
 }
 .two h3{
     font-size: 25px;
-    font-weight:inherit;
     margin: 7px 0px;
 }
 
-.skills-one{
-    margin-left: 468px;
+.a{
+    float: left;
+    text-align: center;
+    margin-left: 398px;
+    
 }
 
-.skills-two{
-    margin-left: 168px;
+.b{
+    float: left;
+    text-align: center;
+    margin-left: 33px;
 }
 
-.skills-three{
-    margin-left: 135px;
+
+.c{
+    float: left;
+    text-align: center;
+    margin-left: 30px;
 }
 
-.skills-four{
-    margin-left: 147px;
+
+.d{
+    float: left;
+    text-align: center;
+    margin-left: 34px;
+    
+}
+
+.skills p{
+    color: #cf7600;
+    font-size: 22px;
 }
 
 .skills span{
     color: #3f495a;
+}
+
+.skills div{
+    margin-top: 200px;
+    font-weight: 500;
+}
+
+.cases input{
+    background-color: #63b5ae;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 15px 42px;
+}
+
+.e{
+    margin-left: 600px;
+    
+}
+
+.e h3{
+    color: #384354;
+    font-size: 25px;
+    
+}
+
+.e span{
+    color: #3f495a;
+}
+
+.calculations {
+    background:url(../img/line.jpg) no-repeat 50% 521px;
+    width: 100%;
+    height: 1028px;
+}
+
+.calculations h2{
+    margin-top: 278px;
+    font-size: 40px;
+    color: #1c2534;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 55px;
+}
+
+.calculations h3{
+    text-transform: uppercase;
+    color: #1c2534;
+    font-size: 25px;
+    margin-left: 450px;
+    margin-bottom: 22px;
+    font-weight: 600;
+}
+
+.calculations select{
+    margin-left: 450px;
+    background-color: #eee;
+    width: 891px;
+    height: 57px;
+    margin-bottom: 44px;
+    color: #737373;
+    font-size: 15px;
+}
+
+.calculations p{
+    margin-left: 450px;
+    color: #1c2534;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.calculations input{
+    margin-left: 780px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #63b5ae;
+    font-size: 16px;
+    padding: 8px 15px;
+}
+
+.sd{
+    word-spacing: 825px;
+    font-weight: bold;
+}
+
+.sb{
+    word-spacing: 783px;
+    font-weight: bold;
+}
+
+.calculations{
+    height: 100%
+}
+
+.statistics{
+    background:url(../img/trait.png) no-repeat 50% 157px,url(../img/BG-6.jpg) no-repeat;
+    width: 100%;
+    height: 100%;
+    margin-bottom: -235px;
+}
+
+.statistics h2{
+    font-size: 40px;
+    color: #323e4f;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 103px;
+    
+}
+
+.six_a{
+    float: left;
+    margin-top: 112px;
+    margin-left: 439px;
+    
+}
+
+.six_b{
+    float: left;
+    margin-top: 112px;
+    margin-left: 156px;
+}
+
+.six_c{
+    float: left;
+    margin-top: 112px;
+    margin-left: 151px;
+}
+
+.six_d{
+    float: left;
+    margin-top: 112px;
+    margin-left: 151px;
+}
+
+.statistics h3{
+    font-size: 40px;
+    color: #323e4f;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.statistics span{
+    color: #323e4f;
+    font-weight: 600;
+    
+}
+
+.six_a img{
+    margin-left: 53px;
+    margin-bottom: 32px;
+}
+
+.six_b img{
+    margin-bottom: 38px;
+    margin-left: 17px;
+}
+
+.six_c img{
+    margin-left: 48px;
+    margin-bottom: 37px;
+    
+}
+
+.six_d img{
+    margin-left: 30px;
+    margin-bottom: 32px;
+}
+
+.reviews{
+    background:url(../img/boy-7.jpg) no-repeat 50% 130px ,url(../img/trait.png) no-repeat 50% 65px;
+    height: 65%;
+}
+
+.reviews h2{
+    color: #243042;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.reviews span{
+    color: #243042;
+    text-align: center;
+    display: block;
+    margin-top: 231px;
+    font-weight: bold;
+}
+
+.reviews p{
+    text-align: center;
+    font-size: 17px;
+    color: #243042;
+    font-weight: bold;
+    margin-top: 36px;
+}
+
+.footer{
+    background:url(../img/trait.png) no-repeat 50% 159px ,url(../img/BG-8.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 100%;
+}
+
+.footer h3{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 105px;
+}
+
+.footer span{
+    color: #fff;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    margin-top: 55px;
+}
+
+.footer li{
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.t{
+    margin-left: 625px;
+}
+
+.y{
+    margin-left: 55px;
+}
+
+.u{
+    margin-left: 80px;
+}
+
+.footer p{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 39px;
+}
+
+.input_one{
+    background-color: #d3d6dc;
+    width: 352px;
+    height: 34px;
+    font-size: 16px;
+    margin: 0px 29px 0px 530px;
+    padding: 9px 14px;
+    margin-top: 46px;
+}
+
+.input_two{
+    background-color: #d3d6dc;
+    width: 352px;
+    height: 34px;
+    font-size: 16px;
+    padding: 10px 13px;
+   
+}
+
+.input_three{
+    background-color: #d3d6dc;
+    font-size: 16px;
+    display: block;
+    margin-left: 530px;
+    margin-top: 14px;
+    width: 737px;
+    height: 94px;
+    padding: 10px 12px;
+    
+}
+
+.input_four{
+    background: none;
+    color: #fff;
+    border: solid 2px #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 auto;
+    display: block;
+    margin-top: 28px;
+    font-size: 16px;
+    padding: 13px 16px;
+    
+}
+
+.BG_nine{
+    background: url(../img/map.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 350px
+}
+
+.BG_ten{
+    background-color: #354051;
+    height: 96px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    padding-top: 41px;
 }
 
