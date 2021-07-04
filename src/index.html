@@ -11,36 +11,41 @@
     <title>Виталий Марлинский-Веб-разработчик</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body>
+   <div class="loader"></div>
     <header>
         <nav>
             <div class="logo">Виталий Марлинский</div>
             <div class="menu"><ul>
-                 <li>Обо мне</li>
-                 <li>Услуги</li>
-                 <li>Кейсы</li>
-                 <li>Прайс</li>
-                 <li>Отзывы</li>
-                 <li>Контакты</li>
+                 <li><a href="#">Обо мне</a></li>
+                 <li><a href="#">Услуги</a></li>
+                 <li><a href="#">Кейсы</a></li>
+                 <li><a href="#">Прайс</a></li>
+                 <li><a href="#">Отзывы</a></li>
+                 <li><a href="#">Контакты</a></li>
                        
                 </ul></div>
         </nav>
     </header>
     
-    <div class="main"><div class="title_container">
+        <main>
+    
+    <section class="main"><div class="title_container">
         <h1>Привет <br>Я Виталий Марлинский</h1>
         <h4>Фулл стек Веб-разработик</h4>
-        <input type="submit" value="Обо мне">
-        <input type="submit" value="Мои работы">
-    </div></div>
+        <input type="button" value="Обо мне">
+        <input type="button" value="Мои работы">
+    </div></section><!--тень должна быть в другую сторону-->
     
-    <div class="description"><h2>Обо мне</h2>
+    <section class="description"><h2>Обо мне</h2>
+    <div class="circle"></div>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, commodi beatae! Iste assumenda dolorum nesciunt accusamus voluptas aut, illo delectus!
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, quae! Pariatur quidem voluptatibus commodi excepturi provident architecto libero enim reiciendis!</p>
-    <input type="submit" value="скачать резюме"></div>
+    <input type="button" value="скачать резюме"></section>
     
-    <div class="skills"><h2>Что я умею</h2>
+    <section class="skills"><h2>Что я умею</h2>
     
     <div class="a"><p>Веб-дизайн</p>
     <span>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Fugiat repellendus earum, <br>delectus, recusandae culpa tempore!</span></div>
@@ -54,17 +59,17 @@
     <div class="d"><p>Маркетинг</p>
     <span>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Fugiat repellendus earum, <br>delectus, recusandae culpa tempore!</span></div>
     
-    </div>
+    </section>
     
-    <div class="cases"><h2>Кейсы</h2><span class="one">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, nulla.</span>
+    <section class="cases"><h2>Кейсы</h2><span class="one">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, nulla.</span>
     <div class="two">
     <h3>CLIENT:</h3><p>какая то компания</p>
     <h3>WEBSITE:</h3><p>http://www.somedomain.com</p>
-    <input type="submit" value="VISIT LIVE SITE"></div></div>
+    <input type="button" value="VISIT LIVE SITE"></div></section>
     <div class="e"><h3>Название проекта</h3><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus aut quaerat temporibus ullam a rem labore eaque? <br>Nostrum laboriosam, consequuntur quia pariatur. Minus nulla ratione quaerat necessitatibus praesentium veritatis <br>quidem ab sunt adipisci modi ad accusantium vitae vel corrupti maxime magnam inventore maiores <br> fugiat numquam incidunt. Perferendis eaque perspiciatis, iure.</span></div>
     
-    <div class="calculations"><h2>Расчёт стоимости</h2>
-    <form action="a"><h3>Тип сайта</h3>
+    <section class="calculations"><h2>Расчёт стоимости</h2>
+    <form action="#"><h3>Тип сайта</h3>
     <select name="calculations" id="calculations1">
        
         <option selected disabled>Выберите пункт...</option>
@@ -90,7 +95,8 @@
         <p class="sd">Сроки 0</p>
         <p class="sb">Стоимости 0</p>
         
-    </form></div>
+    </form></section>
+    <section class="parallax">
     
     <div class="statistics"><h2>Немного статистики</h2>
     
@@ -100,13 +106,13 @@
     
     <div class="six_c"><img src="img/check_mark.png" alt="error 404"><h3>340</h3><span>Проектов завершено</span></div>
     
-    <div class="six_d"><img src="img/cup.png" alt="error 404"><h3>23</h3><span>Наград получено</span></div></div>
+    <div class="six_d"><img src="img/cup.png" alt="error 404"><h3>23</h3><span>Наград получено</span></div></div></section>
     
-    <div class="reviews"><h2>Отзывы</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nostrum ullam saepe molestias hic quo eos dolore explicabo minus, <br>commodi velit eum optio labore fugiat atque maxime sint quas animi?</span>
+    <section class="reviews"><h2>Отзывы</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nostrum ullam saepe molestias hic quo eos dolore explicabo minus, <br>commodi velit eum optio labore fugiat atque maxime sint quas animi?</span>
     <p><b>Михаил</b>, Ген директор ПАО"Газпром".</p>
-    </div>
+    </section>
     
-    <div class="footer">
+    <section class="footer">
         <h3>Мои контакты</h3><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, rem.</span>
         <ul>
             <li class="t"><img src="img/geo.png" alt="error 404"><br>Санкт-Петербург<br>Невский проспект 11</li>
@@ -114,22 +120,23 @@
             <li class="u"><img src="img/phone.png" alt="error 404"><br>+7 999 999-99-99</li>
             </ul>
             <p>Оставьте мне сообщение</p>
-            <form action="a">
-               
+            <form action="#">
+                
                 <input type="text" name="name" placeholder="Имя" class="input_one">
                 
-                <input type="text" name="Email" placeholder="Email" class="input_two">
+                <input type="text" name="email" placeholder="Email" class="input_two">
                 
                 <textarea name="message" id="1" cols="30" rows="10" placeholder="Сообщение" class="input_three"></textarea>
                 
                 <input type="submit" value="Отправить" class="input_four">
                 
-            </form></div>
+            </form></section>
             
             <div class="BG_nine"></div>
             
             <div class="BG_ten"><span>Copyright 2021 Виталий Марлинский. Design by Web</span></div>
-    
+            
+    </main>
 </body>
 
 </html>
